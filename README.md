@@ -8,7 +8,7 @@ Nesta ponderada, modelei de forma simples os processos de submissão de document
 
 O processo real tem três etapas principais — Editar → Revisar → Publicar — com loops de retrabalho (ficar mais tempo editando/revisando) e, às vezes, devolução após publicar. Eu quis medir, de forma simples, vazão, tempo total por documento e onde nasce a fila.
 
-[![Vídeo da Ponderada](https://www.youtube.com/watch?v=onWy7vdnGBA)](https://www.youtube.com/watch?v=onWy7vdnGBA)
+[![Vídeo da Ponderada](https://img.youtube.com/vi/onWy7vdnGBA/maxresdefault.jpg)](https://www.youtube.com/watch?v=onWy7vdnGBA)
 > Link do vídeo: https://www.youtube.com/watch?v=onWy7vdnGBA
 
 ![Arquivo de Simulação .JSIMG](./Ponderada-Arakaki-Simulacao.jsimg)
