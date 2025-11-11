@@ -8,6 +8,11 @@ Nesta ponderada, modelei de forma simples os processos de submissão de document
 
 O processo real tem três etapas principais — Editar → Revisar → Publicar — com loops de retrabalho (ficar mais tempo editando/revisando) e, às vezes, devolução após publicar. Eu quis medir, de forma simples, vazão, tempo total por documento e onde nasce a fila.
 
+[![Vídeo da Ponderada](https://www.youtube.com/watch?v=onWy7vdnGBA)](https://www.youtube.com/watch?v=onWy7vdnGBA)
+> Link do vídeo: https://www.youtube.com/watch?v=onWy7vdnGBA
+
+![Arquivo de Simulação .JSIMG](./Ponderada-Arakaki-Simulacao.jsimg)
+> Link do arquivo de simulação: [./Ponderada-Arakaki-Simulacao.jsimg](./Ponderada-Arakaki-Simulacao.jsimg)
 ## Como desenvolvi o simulador
 
 * Modelei uma rede de filas aberta com Source → Editar → Revisar → Publicar → Sink.
@@ -17,7 +22,7 @@ O processo real tem três etapas principais — Editar → Revisar → Publicar 
 * Coletei métricas nativas do JMT: System Throughput, System Response Time, Utilization e Queue Time por estação.
 
 ## Resultados (AS-IS)
-![Screenshot do simulador](./screenshot-metricas.png)
+![Screenshot das métricas](./screenshot-metricas.png)
 > Acima está um print de somente a métrica "Tempo em fila" (Queue Time) para cada estação. As demais foram mostradas no vídeo.
 
 * Throughput do sistema: 0,0669 doc/min (~4,0 doc/h).
