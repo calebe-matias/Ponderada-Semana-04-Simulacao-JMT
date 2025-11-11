@@ -1,6 +1,8 @@
-# Simulação METRO – JMT
+# Ponderada Simulação de Redes de Filas com JMT 
+Nesta ponderada, modelei de forma simples os processos de submissão de documentos do Portifólio Metro SP usando o Java Modeling Tools (JMT) conforme a aula e os auto estudos.
 
-Este repositório guarda o modelo do fluxo de documentos do METRO que eu construí no JMT (JSIMgraph).
+![Screenshot do simulador](./screenshot.png)
+
 
 ## Contexto
 
@@ -23,11 +25,7 @@ O processo real tem três etapas principais — Editar → Revisar → Publicar 
 
 Leitura: a vazão acompanha a chegada (sistema estável). O tempo total é puxado para cima pelos loops que concentram carga em Revisar, que aparece como gargalo relativo (maior utilização e maior fila). Pela Lei de Little (L = λ × W), os números se mantêm coerentes.
 
-## Screenshot
 
-> Substitua a imagem abaixo por um print do JMT rodando o modelo.
-
-![Screenshot do simulador](./screenshot.png)
 
 ## Arquivo
 
