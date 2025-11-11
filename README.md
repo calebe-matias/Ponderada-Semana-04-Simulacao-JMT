@@ -26,9 +26,3 @@ O processo real tem três etapas principais — Editar → Revisar → Publicar 
 * Tempo médio de espera em fila: Editar = 0,492 min, Revisar = 0,703 min, Publicar = 0,084 min.
 
 Leitura: a vazão acompanha a chegada (sistema estável). O tempo total é puxado para cima pelos loops que concentram carga em Revisar, que aparece como gargalo relativo (maior utilização e maior fila). Pela Lei de Little (L = λ × W), os números se mantêm coerentes.
-
-
-
-## Arquivo
-
-* `MetroSP_Modelo.jsimg`
