@@ -1,7 +1,7 @@
 # Ponderada Simulação de Redes de Filas com JMT 
 Nesta ponderada, modelei de forma simples os processos de submissão de documentos do Portifólio Metro SP usando o Java Modeling Tools (JMT) conforme a aula e os auto estudos.
 
-![Screenshot do simulador](./screenshot.png)
+![Screenshot do simulador](./screenshot-simulador.png)
 
 
 ## Contexto
@@ -17,6 +17,8 @@ O processo real tem três etapas principais — Editar → Revisar → Publicar 
 * Coletei métricas nativas do JMT: System Throughput, System Response Time, Utilization e Queue Time por estação.
 
 ## Resultados (AS-IS)
+![Screenshot do simulador](./screenshot-metricas.png)
+> Acima está um print de somente a métrica "Tempo em fila" (Queue Time) para cada estação. As demais foram mostradas no vídeo.
 
 * Throughput do sistema: 0,0669 doc/min (~4,0 doc/h).
 * Tempo médio ponta-a-ponta: 19,27 min por documento.
